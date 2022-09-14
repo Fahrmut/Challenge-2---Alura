@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    background-color: #E5E5E5;
+    user-select: none;
+}
+
+.icon{
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+    left: 53px;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.buttons button{
+    margin: 15px;
+    transition-duration: 0.5s;
+}
+
+.button-1{
+    width: 317px;
+    height: 114px;
+
+    border-radius: 24px;
+
+    background-color: #0A3871;
+    color: white;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+
+    border: transparent;
+}
+
+.button-2{
+    width: 280px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    background-color: #E5E5E5;
+    color: #0A3871;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.button-1:hover , .button-3:hover{
+    background-color: #062a57;
+}
+.button-2:hover , .button-4:hover{
+    background-color: #DDDDDD;
+}
+.button-1:active , .button-3:active{
+    background-color: #031e3f;
+}
+.button-2:active, .button-4:active{
+    background-color: #CCCCCC;
+}
+
+.buttons2{
+    display: none;
+    align-items: center;
+
+    position: absolute;
+    
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 80%;
+}
+
+.buttons2 button{
+    transition-duration: 0.5s;
+}
+
+.button-3{
+    width: 332px;
+    height: 67px;
+
+    background-color: #0A3871;
+    border-radius: 24px;
+    border: transparent;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: white;
+
+    margin-right: 10px;
+}
+
+.button-4{
+    width: 332px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #0A3871;
+
+    margin-left: 10px;
+}
+
+.input{
+    display: none;
+
+    width: 299px;
+    height: 48px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+
+    color: #0A3871;
+    border: none;
+    border-color: transparent;
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 40%;
+    top: 30%;
+}
+
+.input::placeholder{
+    color: #0A3871;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.alert{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #495057;
+    opacity: 0.8;
+
+    position: absolute;
+    left: 32.5%;
+    top: 74%;
+
+    display: none;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.alert p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.word{
+    display: none;
+    flex-direction: row;
+    gap: 50px;
+
+    position: absolute;
+
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.word p{
+    width: 80px;
+    height: 72px;
+
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    color: #0A3871;
+
+    text-align: center;
+}
+.word div:after {
+    content: '';
+    position:absolute;
+    bottom: -20px;
+    left: auto;
+
+    justify-content: center;
+    background:#0A3871;
+
+    /* transform: translateX(-70%); */
+    
+
+    width: 80px;
+    height: 4px;
+
+    border-radius: 16px 16px 16px 16px;
+}
+
+.buttons3{
+    display: none;
+    align-items: center;
+
+    position: absolute;
+    
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 90%;
+}
+
+.paint{
+    display: none;
+
+    position: absolute;
+    top: 30%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
